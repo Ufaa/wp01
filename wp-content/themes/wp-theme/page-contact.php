@@ -38,6 +38,7 @@ Template Name: お問い合わせ
     <div class="button-submit">
       <button class="button" type="submit">Button</button>
     </div>
+    <?php echo do_shortcode('[contact-form-7 id="53" title="お問い合わせフォーム"]'); ?>
   </form>
 </div>
 <?php get_footer(); ?>
