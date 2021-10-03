@@ -11,7 +11,7 @@ Template Name: お問い合わせ
   $slug = $page->post_name;
   ?>
   <div class="page-title">
-    <h1 class="page-title__h1"><?php echo $slug; ?></h1>
+    <!--<h1 class="page-title__h1"><?php echo $slug; ?></h1>-->
     　　　　
     <!-- 固定ページのタイトル -->
     <p class=></p>
