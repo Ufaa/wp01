@@ -58,3 +58,9 @@ function my_theme_widgets_init()
   ));
 }
 add_action('widgets_init', 'my_theme_widgets_init');
+
+add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+function wpcf7_autop_return_false()
+{
+  return false;
+}
